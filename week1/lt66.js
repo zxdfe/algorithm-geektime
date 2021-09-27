@@ -11,8 +11,7 @@
         // 末尾加1不进位 : 直接加后返回,
         if(digits[i]!=0) return digits;
     }
-    // digits = [...Array(len + 1)].map(_=>0);
-    // 上面写法不优雅 999类似情况
+    // 999类似情况
     digits = Array(len+1).fill(0);
     digits[0] = 1;
     return digits;
