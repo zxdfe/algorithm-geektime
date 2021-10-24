@@ -21,7 +21,7 @@ public:
         
         post = postorder;
         
-        TreeNode* root = buildTree(0, in_len-1, 0, post.size()-1);
+        TreeNode* root = buildTree(0, in_len - 1, 0, post.size() - 1);
         return root;   
     }
     
